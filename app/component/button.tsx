@@ -6,7 +6,7 @@ interface FormBtnProps {
   text: string;
 }
 
-export default function FormBtn({ text }: FormBtnProps) {
+export default function Button({ text }: FormBtnProps) {
   // form의 상태(로딩중)에 접근할 수 있도록 해주는 reat hook
   // 이 hook은 form의 child 안에서만 불러올 수 있다.
   // 이 hook은 interactive component로 만들었다면 상단에 'use client'를 작성해줘야 함
